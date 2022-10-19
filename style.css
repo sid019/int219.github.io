@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+   padding:0;
+ 
+}
+body{
+   background-image: url(y.jpg);    
+   background-size: cover;
+   font-family: "Ubuntu", sans-serif;
+   color:rgb(172, 177, 181)
+   
+} 
+
+h3{
+   color: white;
+   font-size: 30px;
+   font-weight: 800;
+}
+#l{
+  color:rgb(172, 177, 181)
+
+}
+.hide {
+   display: none;
+  }
+  #gantt-chart {
+     height: 250px;
+     width:1000px;
+     
+  }
+  #priority-toggle-btn {
+     font-size: 12px;
+     font-weight: bold;
+     padding: 0 0;
+     width: 60px;
+  }
+td{
+   width: 100px;
+   color: aliceblue;
+   margin: 100px;
+   padding: 10px;
+   border: 2px solid white;
+   background-color: rgb(128 144 213);
+
+}
+  table,th{
+     
+     color: aliceblue;
+     width:100px;
+     margin:10px;
+     padding:10px;     
+     border:1px solid white;
+     background-image:linear-gradient(rgb(131, 211, 96),black);
+ }
+  #h1{
+     text-align: center;
+  }
+
+  h1,p{
+     font-size: 20px;
+     color:rgb(195, 230, 193);
+  } 
+  
+ 
+
+  .add-process-btn,
+  .remove-process-btn,
+  .process-btn,
+  .process-time-cpu-process-heading{
+     display: none;
+     
+  }
+  .main-table{
+     margin-left:200px;
+     margin-right:100px;
+  }
+  #block{
+     width: relative;
+     height: relative;
+     margin-top:10px;
+     margin-left:400px;
+     border-radius: 30px;
+     border: 10px solid #f0eaea;
+     text-align: center;
+     background-size:cover;
+     background-image: url(x.jpg);
+     /* background-color:rgb(132, 184, 233); */
+     box-shadow: #f0eaea;
+     display: inline-block;
+  }
+  
+     /* #as{
+     width:250px;
+     border-radius: 20px;
+     height:35px;
+     background-color: rgb(79, 209, 165);
+     border-color: aliceblue;
+     margin-right:1%;
+
+     } */
+     .add-btn,.remove-btn{
+      background-image: linear-gradient(rgb(153 154 171),#625d5d);
+      width: 205px;
+      height: 48px;
+      font-size: 123%;
+      border-radius: 18px;
+      margin-left: 15px;
+      color: rgb(255 255 255);
+        
+     }
+     #d{
+      background:transparent;
+        width:200px;
+        height: 50px;
+        font-size: larger;
+        
+        color:rgb(172, 177, 181)
+     }
+     #calculate,#reset{
+      margin-top: 10px;
+      border-radius: 22px;
+      background-image: linear-gradient(rgb(153 154 171),#625d5d);
+      width: 206px;
+      height: 50px;
+      font-size: larger;
+      color: white;
+      margin-left: 16px;
+
+     }
+    #context-switch-div{
+      display: none;
+
+     }
+     
+     #algo{
+      height: 63px;
+      font-size: 25px;
+      padding: 11px;
+      border-radius: 21px;
+      background: rgb(151 128 217);
+      width: 300px;
+      margin: 50px;
+      border: 1px solid rgb(235 235 235);
+      border-bottom: solid rgb(253 239 239);
+}
+  #priority-toggle-btn{
+   display: none;
+  }
