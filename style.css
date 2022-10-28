@@ -78,7 +78,6 @@ td{
      width: relative;
      height: relative;
      margin-top:10px;
-     margin-left:400px;
      border-radius: 30px;
      border: 10px solid #f0eaea;
      text-align: center;
@@ -89,15 +88,6 @@ td{
      display: inline-block;
   }
   
-     /* #as{
-     width:250px;
-     border-radius: 20px;
-     height:35px;
-     background-color: rgb(79, 209, 165);
-     border-color: aliceblue;
-     margin-right:1%;
-
-     } */
      .add-btn,.remove-btn{
       background-image: linear-gradient(rgb(153 154 171),#625d5d);
       width: 205px;
